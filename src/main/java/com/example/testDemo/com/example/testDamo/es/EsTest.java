@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EsTest {
     @RequestMapping("hello")
     public String index() {
+        System.out.println("体验");
         return "Hello World";
     }
 }
