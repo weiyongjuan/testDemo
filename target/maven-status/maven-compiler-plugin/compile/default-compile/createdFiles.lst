@@ -1,2 +1,6 @@
-com\example\testDemo\com\example\testDamo\es\EsTest.class
-com\example\testDemo\TestDemoApplication.class
+com\example\testDamo\elasticsearch\bean\EsBean.class
+com\example\testDamo\elasticsearch\services\esService.class
+com\example\testDamo\elasticsearch\controller\EsTest.class
+com\example\testDamo\elasticsearch\dao\esDao.class
+com\example\testDamo\TestDemoApplication.class
+com\example\testDamo\elasticsearch\dao\EsRepository.class
