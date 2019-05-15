@@ -15,6 +15,7 @@ public class EsTest {
     @Autowired
     private EsBean esBean;
 
+
     @RequestMapping("hello")
     public String index(@RequestParam String id) {
         log.info("开始学习elasticsearch");

@@ -1,22 +1,12 @@
 package com.example.testDamo.elasticsearch.bean;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
 import org.springframework.stereotype.Component;
 
-@Document(indexName = "company", type = "employee", shards = 1, replicas = 0, refreshInterval = "-1")
 @Component
 public class EsBean {
-    @Id
     private String id;
-    @Field(type = FieldType.Text, analyzer = "ik_max_word")
     private String firstName;
-    @Field(type=FieldType.Text,analyzer  ="ik_max_word")
     private String lastName;
-    @Field
     private Integer age = 0;
-    @Field
     private String about;
 
     public String getId() {
