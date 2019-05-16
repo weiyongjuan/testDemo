@@ -1,0 +1,11 @@
+server:
+  port: 8088
+spring:
+  data:
+    elasticsearch:
+        cluster:
+          name: my-application
+          nodes: localhost:9300
+
+
+
