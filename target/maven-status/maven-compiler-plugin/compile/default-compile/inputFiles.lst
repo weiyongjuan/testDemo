@@ -2,5 +2,5 @@ F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\bean
 F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\dao\esDao.java
 F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\TestDemoApplication.java
 F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\dao\EsRepository.java
-F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\services\esService.java
+F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\services\EsService.java
 F:\idea_workspace\testDemo\src\main\java\com\example\testDamo\elasticsearch\controller\EsTest.java
